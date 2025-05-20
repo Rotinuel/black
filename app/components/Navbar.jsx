@@ -32,7 +32,7 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden absolute top-16 left-0 w-full bg-purple-600 text-white">
+        <div className="md:hidden absolute top-20 left-0 w-full bg-[#434343] text-white">
           <ul className="flex flex-col items-center space-y-4 p-6">
             {["Home", "About Us", "Services", "Pages", "Blog", "Contact"].map((item, index) => (
               <li key={index}>
