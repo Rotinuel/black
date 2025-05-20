@@ -42,11 +42,11 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <Link href="/get-started">
+          {/* <Link href="/get-started">
             <button className="bg-white text-[#2e2e2e] px-4 py-2 rounded w-full mt-4">
               Get Started
             </button>
-          </Link>
+          </Link> */}
         </div>
       )}
     </nav>
