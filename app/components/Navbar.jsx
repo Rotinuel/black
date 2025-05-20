@@ -24,9 +24,9 @@ const Navbar = () => {
         {/* Hamburger Menu Button */}
         <button className="md:hidden focus:outline-none" onClick={() => setIsOpen(!isOpen)}>
           <div className="space-y-1">
-            <span className="block w-6 h-1 bg-white"></span>
-            <span className="block w-6 h-1 bg-white"></span>
-            <span className="block w-6 h-1 bg-white"></span>
+            <span className="block w-6 h-1 bg-black"></span>
+            <span className="block w-6 h-1 bg-black"></span>
+            <span className="block w-6 h-1 bg-black"></span>
           </div>
         </button>
       </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
             ))}
           </ul>
           <Link href="/get-started">
-            <button className="bg-white text-purple-600 px-4 py-2 rounded w-full mt-4">
+            <button className="bg-white text-[#2e2e2e] px-4 py-2 rounded w-full mt-4">
               Get Started
             </button>
           </Link>
